@@ -1,7 +1,7 @@
-# Data Warehouse and Analytics Project
+# Data Warehouse Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+Welcome to the **Data Warehouse Project** repository! 🚀  
+This project demonstrates a comprehensive data warehousing solution, building a data warehouse that can generate actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and data architecture.
 
 ---
 ## 🏗️ Data Architecture
@@ -20,7 +20,6 @@ This project involves:
 1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
 2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
 🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
 - SQL Development
@@ -28,7 +27,6 @@ This project involves:
 - Data Engineering  
 - ETL Pipeline Developer  
 - Data Modeling  
-- Data Analytics  
 
 ---
 
@@ -47,19 +45,6 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 ---
-
-### BI: Analytics & Reporting (Data Analysis)
-
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
-
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
-
-For more details, refer to [docs/requirements.md](docs/requirements.md).
-
 ## 📂 Repository Structure
 ```
 data-warehouse-project/
@@ -67,12 +52,12 @@ data-warehouse-project/
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_architecture.png           # PNG file shows the project's architecture
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   ├── data_flow.png                   # PNG file for the data flow diagram
+│   ├── data_model.png                  # PNG file for data models (star schema)
+│   ├── naming_conventions.md           # Consistent naming guidelines for tables, columns, and files
+|   ├── data_integration.png            # PNG file shows how the tables are related.
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
